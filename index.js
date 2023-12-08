@@ -1,10 +1,11 @@
-const inquirer = require('inquirer');
-const sql = require('./db/connect.js');
+const db = require('./db/connection.js');
+const startMenu = require('./lib/prompts.js');
 
 // Start server after DB connection
-sql.connect(err => {
+db.connect(err => {
     if (err) throw err;
+    
     console.log('Database connected.');
 
-    // call inquirer function here
+    startMenu();
 });
