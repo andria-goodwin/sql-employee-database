@@ -22,6 +22,9 @@ Other requirements: Node
 ## Usage
 After installation, the application can be ran by opening the integrated terminal and typing 'node index.js'. The database will then open and the user can follow the prompts.
 
+Here is a video walkthrough of how the application works:
+https://drive.google.com/file/d/18hZqpzprXz6BnxDbOtyyfqgWzQXkFHFb/view
+
 ## Tests
 Testing was performed by trial and error.
 
